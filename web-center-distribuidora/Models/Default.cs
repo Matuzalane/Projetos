@@ -24,7 +24,7 @@ namespace web_center_distribuidora.Models
         [DataType(DataType.Date)]
         public DateTime UltimoAcesso { get; set; }
 
-        public virtual ICollection<Contatos> Contatos { get; set; }
+        public virtual ICollection<Contato> Contato { get; set; }
     }
 
     public class PessoaFisica : Pessoa
@@ -90,7 +90,7 @@ namespace web_center_distribuidora.Models
         public int PessoaId { get; set; }
 
         [ForeignKey("PessoaId")]
-        public virtual Pessoas Pessoas { get; set; }
+        public virtual Pessoa Pessoa { get; set; }
     }
 
     public class Produto
