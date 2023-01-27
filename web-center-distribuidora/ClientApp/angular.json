@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "web_center_distribuidora"
+  "defaultProject": "web_center_distribuidora",
+  "cli": {
+    "analytics": "14d976d6-5534-459d-bee7-3d409f36ccee"
+  }
 }

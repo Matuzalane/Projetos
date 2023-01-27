@@ -1,6 +1,14 @@
+using web_center_distribuidora.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<CrmContext>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("CrmConnection")));
+
+builder.Services.AddDbContext<DefaultContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllersWithViews();
 
