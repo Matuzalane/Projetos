@@ -1,20 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+:root {
+  /* Theme Colors */
+  --color-white: #ffffff;
+  --color-white-secondary: #f8f8f8;
+  --color-primary-black: #1f2024;
+  --color-secondary-black: #2f3037;
+  --color-primary: #263c97;
+  --color-secondary: #fdc801;
+  --color-tertiary: #ffffff;
+
+  /* Font Styles */
+  --font-family-primary: 'Rubik', sans-serif;
+  --font-size-title: 40px;
+  --font-size-subtitle: 24px;
+  --font-size-section-title: 18px;
+  --font-size-body-text: 14px;
+  --font-size-body-subtext: 13px;
+
+  /* Text Colors */
+  --color-text-body: #4f4f4f;
+  --color-text-body-secondary: #666666;
+  --color-main: #222222;
+  --color-hover: #fcbe00;
+  --color-link-menu: #0a2748;
+  --color-link-menu-sub: #4f4f4f;
+  --color-link-menu-hover: #fcbe00;
+
+  /* Product Colors */
+  --color-name-product: #0068C7;
+  --color-name-product-hover: #0068c9;
+  --color-star-product: #ffa200;
+  --color-compare-price-product: #a4a4a4;
+  --color-price-product: #222222;
+  --color-current-product: #cc1414;
+  --color-btn-product: #f5f5f5;
+  --color-btn-product-hover: #fcbe00;
+
+  /* Label Colors */
+  --color-label-hot: #cc1414;
+  --color-label-new: #5aab19;
+  --color-label-sale: #5aab19;
+  --color-label-in: #25a799;
+  --color-label-out: #636363;
+
+  /* Buttons Colors */
+  --color-btn-text: #222222;
+  --color-btn: #fcbe00;
+  --color-btn-text_hover: #ffffff;
+  --color-btn-hover: #fcb200;
+
+  /* icon Colors */
+  --color-icon: #ffffff;
+  --color-icon-secondary: #fcbe00;
+  --color-icon-title: #ffffff; 
+  --color-icon-subtitle: #a3afef; 
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-code {
-  color: #e01a76;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
+html, body { height: 100%; }
+body { margin: 0; }

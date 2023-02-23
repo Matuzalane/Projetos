@@ -1,0 +1,21 @@
+.icon{
+    font-size: var(--font-size-subtitle);
+    position: absolute;
+    left: 0;
+    fill: var(--color-icon);
+}
+.link-icon {
+    font-size: var(--font-size-body-text);
+    color: var(--color-icon-title);
+    position: relative;
+    line-height: 1;
+    display: block;
+    padding-left: 2.5rem;
+}
+.icon-subtitle{
+    color: var(--color-icon-subtitle);
+    display: block;
+    line-height: 1;
+    margin-bottom: 0.1875rem;
+    font-size: var(--font-size-body-subtext);
+}

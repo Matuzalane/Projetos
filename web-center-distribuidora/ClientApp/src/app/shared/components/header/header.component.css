@@ -1,0 +1,6 @@
+.header-top{
+    background-color: var(--color-primary);
+  }
+.header-search{
+    padding: 1.8125rem 2.8125rem 1.8125rem 0.9375rem;
+}

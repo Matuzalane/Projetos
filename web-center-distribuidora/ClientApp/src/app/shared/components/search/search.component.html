@@ -1,0 +1,5 @@
+<div class="search-form" *ngIf="pesquisar">
+    <form autocomplete="on" novalidate [formGroup]="pesquisar" (ngSubmit)="submit()" (ngReset)="reiniciarForm()">
+        <app-input-select [opcoes]="categorias" controlName="categoria" [formGroup]="pesquisar"></app-input-select>
+    </form>
+</div>
